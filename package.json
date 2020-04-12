@@ -8,7 +8,7 @@
   },
   "scripts": {
     "watch": "nodemon --ext '*' --watch src/ --watch res/ --exec npm run build",
-    "build": "postcss src/raster.css src/grid.css src/debug.css --dir dist/ && cp res/*.js dist/ && cp res/*.ts dist/"
+    "build": "postcss src/raster.css src/grid.css src/debug.css --dir dist/ && cp res/* dist/"
   },
   "keywords": [
     "html",
@@ -30,6 +30,5 @@
     "postcss-cli": "^7.1.0",
     "postcss-import": "^12.0.1",
     "postcss-nested": "^4.2.1"
-  },
-  "dependencies": {}
+  }
 }

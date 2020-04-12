@@ -1,4 +1,5 @@
-const isDebug = process.env.NODE_ENV == 'development'
+const path = require('path')
+const isDebug = process.env.NODE_ENV !== 'production'
 
 module.exports = {
   map: {

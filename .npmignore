@@ -1,0 +1,4 @@
+res/**
+src/**
+.github/**
+postcss.config.js
