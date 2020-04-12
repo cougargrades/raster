@@ -1,10 +1,10 @@
 {
-  "name": "raster",
-  "version": "4",
+  "name": "@cougargrades/raster",
+  "version": "20.0.0",
   "description": "Simple grid system",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rsms/raster.git"
+    "url": "git+https://github.com/cougargrades/raster.git"
   },
   "scripts": {
     "build-w": "misc/build.sh -g -w",
@@ -19,9 +19,9 @@
   "author": "Rasmus Andersson <https://rsms.me>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rsms/raster/issues"
+    "url": "https://github.com/cougargrades/raster/issues"
   },
-  "homepage": "https://github.com/rsms/raster#readme",
+  "homepage": "https://github.com/cougargrades/raster#readme",
   "devDependencies": {
     "autoprefixer": "^9.7.3",
     "browserslist": "^4.8.2",
