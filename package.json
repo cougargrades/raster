@@ -8,7 +8,7 @@
   },
   "scripts": {
     "watch": "nodemon --ext '*' --watch src/ --watch res/ --exec npm run build",
-    "build": "postcss --map src/raster.css src/grid.css src/debug.css --dir dist/ && cp res/*.js dist/ && cp res/*.ts dist/"
+    "build": "postcss src/raster.css src/grid.css src/debug.css --dir dist/ && cp res/*.js dist/ && cp res/*.ts dist/"
   },
   "keywords": [
     "html",
