@@ -1,6 +1,6 @@
 {
   "name": "@cougargrades/raster",
-  "version": "20.0.2",
+  "version": "20.0.3",
   "description": "Simple grid system",
   "repository": {
     "type": "git",
@@ -11,11 +11,9 @@
     "build": "misc/build.sh"
   },
   "files": [
-    "raster.css",
-    "raster.debug.css",
-    "raster.dev.css",
-    "raster.grid.css",
-    "raster2.css"
+    "*.css",
+    "raster2-react.d.ts",
+    "raster2-react.js"
   ],
   "keywords": [
     "html",
