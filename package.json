@@ -7,20 +7,9 @@
     "url": "git+https://github.com/cougargrades/raster.git"
   },
   "scripts": {
-    "build-w": "misc/build.sh -g -w",
-    "build": "misc/build.sh"
+    "watch": "nodemon --ext '*' --watch src/ --watch res/ --exec npm run build",
+    "build": "postcss --map src/raster.css src/grid.css src/debug.css --dir dist/ && cp res/*.js dist/ && cp res/*.ts dist/"
   },
-  "files": [
-    "raster2.css",
-    "raster.css",
-    "raster.debug.css",
-    "raster.dev.css",
-    "raster.grid.css",
-    "raster2-react.d.ts",
-    "raster2-react.js",
-    "raster2.d.ts",
-    "raster2.js"
-  ],
   "keywords": [
     "html",
     "css",
@@ -33,5 +22,14 @@
     "url": "https://github.com/cougargrades/raster/issues"
   },
   "homepage": "https://github.com/cougargrades/raster#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "cssnano": "^4.1.10",
+    "nodemon": "^2.0.3",
+    "postcss-banner": "^3.0.1",
+    "postcss-cli": "^7.1.0",
+    "postcss-import": "^12.0.1",
+    "postcss-nested": "^4.2.1"
+  },
+  "dependencies": {}
 }
