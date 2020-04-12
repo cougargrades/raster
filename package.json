@@ -11,9 +11,15 @@
     "build": "misc/build.sh"
   },
   "files": [
-    "*.css",
+    "raster2.css",
+    "raster.css",
+    "raster.debug.css",
+    "raster.dev.css",
+    "raster.grid.css",
     "raster2-react.d.ts",
-    "raster2-react.js"
+    "raster2-react.js",
+    "raster2.d.ts",
+    "raster2.js"
   ],
   "keywords": [
     "html",
@@ -27,6 +33,5 @@
     "url": "https://github.com/cougargrades/raster/issues"
   },
   "homepage": "https://github.com/cougargrades/raster#readme",
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
